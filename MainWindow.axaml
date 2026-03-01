@@ -4,7 +4,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="LinuxGUI.MainWindow"
-        Background="#2d2d30"
+        Background="#101010"
         Title="Transcriptve">
-    Testing Custom Message
+        
+    <DockPanel>
+        <Panel DockPanel.Dock="Left" Width="250" Margin="5,5,5,5">
+            <Rectangle Fill="#1d1d1d" RadiusX="5" RadiusY="5"/>
+            
+            <TextBlock Text="Avalon Panel"
+                       Foreground="White"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"/>
+            
+        </Panel>    
+            <TextBlock Text="Avalon Main"
+                       Foreground="White"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"/>
+    </DockPanel>
+                                   
 </Window>
