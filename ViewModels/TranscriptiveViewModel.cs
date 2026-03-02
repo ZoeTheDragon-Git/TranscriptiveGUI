@@ -1,6 +1,9 @@
+using CommunityToolkit.Mvvm.ComponentModel;
+
 namespace LinuxGUI.ViewModels;
 
-public class TranscriptiveViewModel : ViewModelBase
+public partial class TranscriptiveViewModel : ViewModelBase
 {
-    // New Logic
+    [ObservableProperty]
+    private string? _sampleName; 
 }

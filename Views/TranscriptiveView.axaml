@@ -2,9 +2,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:LinuxGUI.ViewModels"
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-             x:Class="LinuxGUI.Views.TranscriptiveView">
+             x:Class="LinuxGUI.Views.TranscriptiveView"
+             x:DataType="vm:TranscriptiveViewModel">
+             
   
-    <TextBlock Text="Transcriptive" FontSize="26" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    <StackPanel HorizontalAlignment="Left" Margin="10,20,0,0">
+        <TextBlock Text="Sample Name" FontSize="20" HorizontalAlignment="Left"/>
+        <TextBox Text="{Binding SampleName, Mode=TwoWay}" Watermark="Enter your name..."/>
+        <TextBlock Text="{Binding SampleName}"/>
+        
+    </StackPanel>
     
 </UserControl>

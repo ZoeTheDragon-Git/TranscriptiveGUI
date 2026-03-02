@@ -23,6 +23,7 @@
 /home/zoe/.nuget/packages/avalonia.win32/11.3.12/lib/net8.0/Avalonia.Win32.dll
 /home/zoe/.nuget/packages/avalonia.x11/11.3.12/lib/net8.0/Avalonia.X11.dll
 /home/zoe/.nuget/packages/communitytoolkit.mvvm/8.4.0/lib/net8.0/CommunityToolkit.Mvvm.dll
+/home/zoe/.nuget/packages/dynamicdata/9.4.1/lib/net9.0/DynamicData.dll
 /home/zoe/.nuget/packages/harfbuzzsharp/8.3.1.1/lib/net8.0/HarfBuzzSharp.dll
 /home/zoe/.nuget/packages/microcom.runtime/0.11.0/lib/net5.0/MicroCom.Runtime.dll
 /usr/lib64/dotnet/packs/Microsoft.NETCore.App.Ref/10.0.3/ref/net10.0/Microsoft.CSharp.dll
@@ -32,7 +33,13 @@
 /usr/lib64/dotnet/packs/Microsoft.NETCore.App.Ref/10.0.3/ref/net10.0/Microsoft.Win32.Registry.dll
 /usr/lib64/dotnet/packs/Microsoft.NETCore.App.Ref/10.0.3/ref/net10.0/mscorlib.dll
 /usr/lib64/dotnet/packs/Microsoft.NETCore.App.Ref/10.0.3/ref/net10.0/netstandard.dll
+/home/zoe/.nuget/packages/reactiveui.avalonia/11.4.7/lib/net10.0/ReactiveUI.Avalonia.dll
+/home/zoe/.nuget/packages/reactiveui/23.1.8/lib/net10.0/ReactiveUI.dll
 /home/zoe/.nuget/packages/skiasharp/2.88.9/lib/net6.0/SkiaSharp.dll
+/home/zoe/.nuget/packages/splat.builder/19.3.1/lib/net10.0/Splat.Builder.dll
+/home/zoe/.nuget/packages/splat.core/19.3.1/lib/net10.0/Splat.Core.dll
+/home/zoe/.nuget/packages/splat/19.3.1/lib/net10.0/Splat.dll
+/home/zoe/.nuget/packages/splat.logging/19.3.1/lib/net10.0/Splat.Logging.dll
 /usr/lib64/dotnet/packs/Microsoft.NETCore.App.Ref/10.0.3/ref/net10.0/System.AppContext.dll
 /usr/lib64/dotnet/packs/Microsoft.NETCore.App.Ref/10.0.3/ref/net10.0/System.Buffers.dll
 /usr/lib64/dotnet/packs/Microsoft.NETCore.App.Ref/10.0.3/ref/net10.0/System.Collections.Concurrent.dll
@@ -116,6 +123,7 @@
 /usr/lib64/dotnet/packs/Microsoft.NETCore.App.Ref/10.0.3/ref/net10.0/System.Numerics.dll
 /usr/lib64/dotnet/packs/Microsoft.NETCore.App.Ref/10.0.3/ref/net10.0/System.Numerics.Vectors.dll
 /usr/lib64/dotnet/packs/Microsoft.NETCore.App.Ref/10.0.3/ref/net10.0/System.ObjectModel.dll
+/home/zoe/.nuget/packages/system.reactive/6.1.0/lib/net6.0/System.Reactive.dll
 /usr/lib64/dotnet/packs/Microsoft.NETCore.App.Ref/10.0.3/ref/net10.0/System.Reflection.DispatchProxy.dll
 /usr/lib64/dotnet/packs/Microsoft.NETCore.App.Ref/10.0.3/ref/net10.0/System.Reflection.dll
 /usr/lib64/dotnet/packs/Microsoft.NETCore.App.Ref/10.0.3/ref/net10.0/System.Reflection.Emit.dll

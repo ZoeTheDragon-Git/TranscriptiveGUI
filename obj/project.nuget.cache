@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "f9vD/I8Z8Qc=",
+  "dgSpecHash": "D6CHtWxbs5U=",
   "success": true,
   "projectFilePath": "/home/zoe/LinuxGUI/LinuxGUI/LinuxGUI.csproj",
   "expectedPackageFiles": [
@@ -20,17 +20,25 @@
     "/home/zoe/.nuget/packages/avalonia.win32/11.3.12/avalonia.win32.11.3.12.nupkg.sha512",
     "/home/zoe/.nuget/packages/avalonia.x11/11.3.12/avalonia.x11.11.3.12.nupkg.sha512",
     "/home/zoe/.nuget/packages/communitytoolkit.mvvm/8.4.0/communitytoolkit.mvvm.8.4.0.nupkg.sha512",
+    "/home/zoe/.nuget/packages/dynamicdata/9.4.1/dynamicdata.9.4.1.nupkg.sha512",
     "/home/zoe/.nuget/packages/harfbuzzsharp/8.3.1.1/harfbuzzsharp.8.3.1.1.nupkg.sha512",
     "/home/zoe/.nuget/packages/harfbuzzsharp.nativeassets.linux/8.3.1.1/harfbuzzsharp.nativeassets.linux.8.3.1.1.nupkg.sha512",
     "/home/zoe/.nuget/packages/harfbuzzsharp.nativeassets.macos/8.3.1.1/harfbuzzsharp.nativeassets.macos.8.3.1.1.nupkg.sha512",
     "/home/zoe/.nuget/packages/harfbuzzsharp.nativeassets.webassembly/8.3.1.1/harfbuzzsharp.nativeassets.webassembly.8.3.1.1.nupkg.sha512",
     "/home/zoe/.nuget/packages/harfbuzzsharp.nativeassets.win32/8.3.1.1/harfbuzzsharp.nativeassets.win32.8.3.1.1.nupkg.sha512",
     "/home/zoe/.nuget/packages/microcom.runtime/0.11.0/microcom.runtime.0.11.0.nupkg.sha512",
+    "/home/zoe/.nuget/packages/reactiveui/23.1.8/reactiveui.23.1.8.nupkg.sha512",
+    "/home/zoe/.nuget/packages/reactiveui.avalonia/11.4.7/reactiveui.avalonia.11.4.7.nupkg.sha512",
     "/home/zoe/.nuget/packages/skiasharp/2.88.9/skiasharp.2.88.9.nupkg.sha512",
     "/home/zoe/.nuget/packages/skiasharp.nativeassets.linux/2.88.9/skiasharp.nativeassets.linux.2.88.9.nupkg.sha512",
     "/home/zoe/.nuget/packages/skiasharp.nativeassets.macos/2.88.9/skiasharp.nativeassets.macos.2.88.9.nupkg.sha512",
     "/home/zoe/.nuget/packages/skiasharp.nativeassets.webassembly/2.88.9/skiasharp.nativeassets.webassembly.2.88.9.nupkg.sha512",
     "/home/zoe/.nuget/packages/skiasharp.nativeassets.win32/2.88.9/skiasharp.nativeassets.win32.2.88.9.nupkg.sha512",
+    "/home/zoe/.nuget/packages/splat/19.3.1/splat.19.3.1.nupkg.sha512",
+    "/home/zoe/.nuget/packages/splat.builder/19.3.1/splat.builder.19.3.1.nupkg.sha512",
+    "/home/zoe/.nuget/packages/splat.core/19.3.1/splat.core.19.3.1.nupkg.sha512",
+    "/home/zoe/.nuget/packages/splat.logging/19.3.1/splat.logging.19.3.1.nupkg.sha512",
+    "/home/zoe/.nuget/packages/system.reactive/6.1.0/system.reactive.6.1.0.nupkg.sha512",
     "/home/zoe/.nuget/packages/tmds.dbus.protocol/0.21.2/tmds.dbus.protocol.0.21.2.nupkg.sha512"
   ],
   "logs": []

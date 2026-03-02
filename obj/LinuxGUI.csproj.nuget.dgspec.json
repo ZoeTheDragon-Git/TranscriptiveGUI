@@ -68,6 +68,10 @@
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.4.0, )"
+            },
+            "ReactiveUI.Avalonia": {
+              "target": "Package",
+              "version": "[11.4.7, )"
             }
           },
           "imports": [
