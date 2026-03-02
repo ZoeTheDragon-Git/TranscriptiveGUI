@@ -14,6 +14,9 @@
         CanResize="False"
         Background="#121212">
     
+    <!-- This is the side menu that displays on the left of the window at all times -->
+    <!-- This was made for the DockPanel(Empty) -> Panel(Defines size of side pane) -> Rectangle(Gives the dock its color) -->
+    <!-- I used the grid so I could have a bottom oriented setting button below the StackPanel with the rest of the tabs -->
     <DockPanel>
         <Panel DockPanel.Dock="Left" Width="200" Margin="5,5,5,5">
             <Rectangle Fill="#1d1d1d" RadiusX="5" RadiusY="5"/>

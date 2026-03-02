@@ -7,7 +7,7 @@
              x:Class="LinuxGUI.Views.TranscriptiveView"
              x:DataType="vm:TranscriptiveViewModel">
              
-  
+    <!-- All this does is create the field for the sample name and test that the input is being pulled properly -->
     <StackPanel HorizontalAlignment="Left" Margin="10,20,0,0">
         <TextBlock Text="Sample Name" FontSize="20" HorizontalAlignment="Left"/>
         <TextBox Text="{Binding SampleName, Mode=TwoWay}" Watermark="Enter your name..."/>
