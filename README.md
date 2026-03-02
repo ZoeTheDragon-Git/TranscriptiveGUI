@@ -28,3 +28,37 @@ LinuxGUI
 |   App.axaml
 |   App.axaml.cs
 ```
+
+# Setup
+
+This project can be setup for basic use with:
+```
+git clone https://github.com/ZoeTheDragon-Git/TranscriptiveGUI
+unzip TranscriptiveGUI.zip
+cd TranscriptiveGUI
+```
+
+Or you can prepare this project for development with:
+```
+mkdir LinuxGUI
+cd LinuxGUI
+git init
+git branch -m main
+git remote add origin git@github.com:ZoeTheDragon-Git/TranscriptiveGUI
+git pull origin main
+```
+
+This project makes use of Avalonia UI and the Community Toolkit MVVM libraries.
+To import these libraries, simply run these commands:
+```
+dotnet new install Avalonia.Templates
+dotnet add package CommunityToolkit.Mvvm
+```
+
+Once the repo has been cloned and you are ready, simply run:
+```
+dotnet run
+```
+
+This project doesn't require an IDE, so assuming you have the .NET SDK, the GUI should now run.
+
