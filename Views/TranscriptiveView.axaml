@@ -15,7 +15,6 @@
         <TextBlock Text="{Binding SampleName}" HorizontalAlignment="Left"/>
         
         <!-- Create and grab the type of medicine practiced -->
-        
         <TextBlock Text="Field of medicine" Width="120" HorizontalAlignment="Left"/>
         <ComboBox ItemsSource="{Binding Options}" SelectedItem="{Binding MediField}" Width="120" HorizontalAlignment="Left"/>
         <TextBlock Text="{Binding MediField}" HorizontalAlignment="Left"/>
@@ -24,6 +23,16 @@
         <TextBlock Text="Transcription"/>
         <TextBox Text="{Binding Transcription, Mode=TwoWay}" Watermark="Enter Transcription" Width="120" HorizontalAlignment="Left"/>
         <TextBlock Text="{Binding Transcription}" HorizontalAlignment="Left"/>
+        
+        <!-- Create and grab the field for the description -->
+        <TextBlock Text="Description"/>
+        <TextBox Text="{Binding Description, Mode=TwoWay}" Watermark="Description..." Width="120" HorizontalAlignment="Left"/>
+        <TextBlock Text="{Binding Description}" HorizontalAlignment="Left"/>
+        
+        <!-- Create and grab the tags field -->
+        <TextBlock Text="Tags"/>
+        <TextBox Text="{Binding Tags, Mode=TwoWay}" Watermark="Tags..." Width="120" HorizontalAlignment="Left"/>
+        <TextBlock Text="{Binding Tags}" HorizontalAlignment="Left"/>
         
         <Button Content="Input" Command="{Binding saveField}"/>
         

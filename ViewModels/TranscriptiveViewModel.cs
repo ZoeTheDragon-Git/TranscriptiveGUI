@@ -18,6 +18,12 @@ public partial class TranscriptiveViewModel : ViewModelBase
     [ObservableProperty]
     private string? _transcription;
 
+    [ObservableProperty]
+    private string? _description;
+
+    [ObservableProperty]
+    private string? _tags;
+
     public void saveField()
     {
         System.Diagnostics.Debug.WriteLine($"Saved: {MediField}");
