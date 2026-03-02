@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="273d88b1-a602-499c-b8e2-85edad42c7de" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LinuxGUI.dir/.idea/avalonia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LinuxGUI.dir/.idea/avalonia.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LinuxGUI.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LinuxGUI.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ViewModels/MainWindowViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ViewModels/MainWindowViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/HomeView.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/HomeView.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/MainWindow.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/MainWindow.axaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net10.0/LinuxGUI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net10.0/LinuxGUI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net10.0/LinuxGUI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net10.0/LinuxGUI.pdb" afterDir="false" />
@@ -35,6 +37,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/ViewModels/HomeViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ViewModels/SettingsViewModel.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -95,7 +98,7 @@
       <workItem from="1772397757454" duration="1116000" />
       <workItem from="1772398906390" duration="1453000" />
       <workItem from="1772405288623" duration="1033000" />
-      <workItem from="1772407282727" duration="13237000" />
+      <workItem from="1772407282727" duration="14396000" />
     </task>
     <servers />
   </component>
