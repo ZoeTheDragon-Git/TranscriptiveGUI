@@ -7,40 +7,60 @@
              x:Class="LinuxGUI.Views.TranscriptiveView"
              x:DataType="vm:TranscriptiveViewModel">
     
-    <Panel DockPanel.Dock="Left" Width="250" Margin="5,5,5,5" HorizontalAlignment="Left"> 
-        <Rectangle Fill="#606368" RadiusX="5" RadiusY="5"/>
-        <Rectangle Fill="#121212" RadiusX="5" RadiusY="5" Width="246" Height="436"/>
+    <!-- I've started to format all elements as Dimensions -> Alignment -> Margins -> Object Properties -->
+    <!-- Just a bit of code cleanup -->
+    <DockPanel>
         
-        <StackPanel HorizontalAlignment="Left" Margin="10,12,0,0">
-            <!-- Create the label and grab input for sample name -->
-            <TextBlock Text="Sample Name" FontSize="20" HorizontalAlignment="Left"/>
-            <TextBox Text="{Binding SampleName, Mode=TwoWay}" Watermark="Sample Name..." Width="230" HorizontalAlignment="Left"/>
-            <TextBlock Text="{Binding SampleName}" HorizontalAlignment="Left"/>
+        <Panel Width="250" HorizontalAlignment="Left" Margin="5,5,5,5"> 
+            <Rectangle Width="250" Height="440" Fill="#606368" RadiusX="5" RadiusY="5"/>
+            <Rectangle Width="246" Height="436" Fill="#121212" RadiusX="5" RadiusY="5"/>
         
-            <!-- Create and grab the type of medicine practiced -->
-            <TextBlock Text="Field of medicine" Width="120" HorizontalAlignment="Left"/>
-            <ComboBox ItemsSource="{Binding Options}" SelectedItem="{Binding MediField}" Width="230" HorizontalAlignment="Left"/>
-            <TextBlock Text="{Binding MediField}" HorizontalAlignment="Left"/>
+            <StackPanel HorizontalAlignment="Left" Margin="10,12,0,0">
+                <!-- Create the label and grab input for sample name -->
+                <TextBlock Width="230" HorizontalAlignment="Left" Text="Sample Name" FontSize="20"/>
+                <TextBox Width="230" HorizontalAlignment="Left" Text="{Binding SampleName, Mode=TwoWay}" Watermark="Sample Name..."/>
+                <TextBlock Width="230" HorizontalAlignment="Left" Text="{Binding SampleName}"/>
         
-            <!-- Create and grab the field for the transcription -->
-            <TextBlock Text="Transcription"/>
-            <TextBox Text="{Binding Transcription, Mode=TwoWay}" Watermark="Enter Transcription" Width="230" HorizontalAlignment="Left"/>
-            <TextBlock Text="{Binding Transcription}" HorizontalAlignment="Left"/>
+                <!-- Create and grab the type of medicine practiced -->
+                <TextBlock Width="230" HorizontalAlignment="Left" Text="Field of medicine"/>
+                <ComboBox Width="230" HorizontalAlignment="Left" ItemsSource="{Binding Options}" SelectedItem="{Binding MediField}"/>
+                <TextBlock Width="230" HorizontalAlignment="Left" Text="{Binding MediField}"/>
         
-            <!-- Create and grab the field for the description -->
-            <TextBlock Text="Description"/>
-            <TextBox Text="{Binding Description, Mode=TwoWay}" Watermark="Description..." Width="230" Height="80" TextWrapping="Wrap" HorizontalAlignment="Left"/>
-            <TextBlock Text="{Binding Description}" HorizontalAlignment="Left"/>
+                <!-- Create and grab the field for the transcription -->
+                <TextBlock Width="230" HorizontalAlignment="Left" Text="Transcription"/>
+                <TextBox Width="230" HorizontalAlignment="Left" Text="{Binding Transcription, Mode=TwoWay}" Watermark="Enter Transcription"/>
+                <TextBlock Width="230" HorizontalAlignment="Left" Text="{Binding Transcription}"/>
         
-            <!-- Create and grab the tags field -->
-            <TextBlock Text="Tags"/>
-            <TextBox Text="{Binding Tags, Mode=TwoWay}" Watermark="Tags..." Width="230" HorizontalAlignment="Left"/>
-            <TextBlock Text="{Binding Tags}" HorizontalAlignment="Left"/>
+                <!-- Create and grab the field for the description -->
+                <TextBlock Width="230" HorizontalAlignment="Left" Text="Description"/>
+                <TextBox Width="230" Height="80" HorizontalAlignment="Left" Text="{Binding Description, Mode=TwoWay}" Watermark="Description..."/>
+                <TextBlock Width="230" HorizontalAlignment="Left" Text="{Binding Description}"/>
         
-            <Button Content="Input" Command="{Binding saveField}"/>
+                <!-- Create and grab the tags field -->
+                <TextBlock Width="230" HorizontalAlignment="Left" Text="Tags"/>
+                <TextBox Width="230" HorizontalAlignment="Left" Text="{Binding Tags, Mode=TwoWay}" Watermark="Tags..."/>
+                <TextBlock Width="230" HorizontalAlignment="Left" Text="{Binding Tags}"/>
         
-        </StackPanel>
+                <Button Content="Input" Command="{Binding saveField}"/>
         
-    </Panel>
+            </StackPanel>
+        
+        </Panel>
+        
+        <Panel Width="320" HorizontalAlignment="Right" Margin="5,5,10,5"> 
+            <Rectangle Width="320" Height="440" Fill="#606368" RadiusX="5" RadiusY="5"/>
+            <Rectangle Width="316" Height="436" Fill="#121212" RadiusX="5" RadiusY="5"/>
+        
+            <StackPanel HorizontalAlignment="Left" Margin="10,12,0,0">
+                <!-- This will be the box that displays the JSON string as it is formed -->
+                <TextBlock Width="230" HorizontalAlignment="Left" Text="JSON" FontSize="20"/>
+                <TextBox Width="230" HorizontalAlignment="Left" Text="{Binding SampleName, Mode=TwoWay}" Watermark="Json String" IsReadOnly="True"/>
+                <TextBlock Width="230" HorizontalAlignment="Left" Text="{Binding SampleName}"/>
+        
+            </StackPanel>
+        
+        </Panel>
+        
+    </DockPanel>
     
 </UserControl>
